@@ -29,18 +29,8 @@ const Team = () => {
     },
     {
       name: "Mr. Iftikhar Ahmed",
-      position: "COO (Chief Operating Officer)",
+      position: "Managing Director",
       image: "../Image2.jpeg",
-    },
-    {
-      name: "Mr. Jerry O. Omughell",
-      position: "GM Admin - Company Secretary",
-      image: "../Image8.jpeg",
-    },
-    {
-      name: "Captain Malik A Khan",
-      position: "(Master Mariner) - (DPA)",
-      image: "../Image9.jpg",
     },
   ];
 
