@@ -18,11 +18,6 @@ const Team = () => {
       image: "../Image5.jpg",
     },
     {
-      name: "Mr. Emeka Dan Nzelu",
-      position: "Director",
-      image: "../Image10.jpg",
-    },
-    {
       name: "Alhaji Nurudeen Tambaya",
       position: "Director",
       image: "../Image11.jpeg",
