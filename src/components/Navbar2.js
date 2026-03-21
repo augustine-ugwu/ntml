@@ -47,10 +47,10 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="/services"
+              href="/products"
               className="nav font-heading relative cursor-pointer"
             >
-              Services
+              Products
             </a>
           </li>
           <li>

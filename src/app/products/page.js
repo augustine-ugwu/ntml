@@ -1,24 +1,28 @@
-// PRODUCTS PAGE
+import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar2";
+import HeroSection from "../../components/HeroSection";
 
 export default function Products() {
   return (
-    <div className="px-6 md:px-16 py-10 space-y-6">
-      <h1 className="text-3xl font-bold">Our Vehicles</h1>
+    <div>
+      {/* Navbar */}
+      <Navbar />
 
-      <div className="grid md:grid-cols-2 gap-6">
-        <div className="p-6 border rounded-xl">
-          <h2 className="font-semibold">Heavy-Duty Trucks</h2>
-        </div>
-        <div className="p-6 border rounded-xl">
-          <h2 className="font-semibold">Cargo Trucks</h2>
-        </div>
-        <div className="p-6 border rounded-xl">
-          <h2 className="font-semibold">Tractors</h2>
-        </div>
-        <div className="p-6 border rounded-xl">
-          <h2 className="font-semibold">Mass Transit</h2>
-        </div>
+      {/* HeroSection */}
+      <HeroSection
+        title="Our Products and Services"
+        backgroundImage="/0002.jpg"
+      />
+
+      {/* Main Section */}
+      <div className="text-center bg-white px-4 md:px-32 pt-20 pb-32">
+        <h1 className="font-heading text-italic text-5xl md:text-6xl tracking-wide text-center mb-6 text-green-600">
+          Coming Soon
+        </h1>
       </div>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }

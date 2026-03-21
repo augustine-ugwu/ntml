@@ -47,7 +47,7 @@ export default function About() {
             <hr className="mt-16 block md:hidden" />
           </div>
 
-          {/* Agency Services */}
+          {/* Our Mission */}
           <div className="text-center">
             <img
               src="../mission.svg"
