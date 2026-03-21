@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../components/Navbar";
+import Navbar from "../../components/Navbar2";
 import Footer from "../../components/Footer";
 import HeroSection from "../../components/HeroSection";
 
@@ -10,14 +10,13 @@ export default function ContactPage() {
       <Navbar />
 
       {/* HeroSection */}
-      <HeroSection title="Contact Us" backgroundImage="/assets/1543.jpg" />
+      <HeroSection title="Contact Us" backgroundImage="/0002.jpg" />
 
       {/* Content */}
-      <div className="min-h-screen py-6">
+      <div className="min-h-screen bg-white py-6">
         {" "}
-        <div className="container mx-auto text-center p-6">
-          <h2 className="font-heading text-2xl mb-8">CONTACT US</h2>
-          <h1 className="font-heading md:text-6xl text-4xl">
+        <div className="container mx-auto text-center">
+          <h1 className="font-heading pt-20 sm: pt-10 md:text-6xl text-4xl text-green-600 ">
             Have Questions? Get in Touch!
           </h1>
         </div>
@@ -26,7 +25,7 @@ export default function ContactPage() {
           {/* Left Section */}
           <div className="w-full md:w-1/2 text-center md:mt-16">
             <div className="md:col-span-7">
-              <img src="/assets/1542.jpg" />
+              <img src="/support.jpg" />
             </div>
           </div>
 

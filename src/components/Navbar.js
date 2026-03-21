@@ -140,32 +140,11 @@ export default function Navbar() {
             <a href="/" className="font-heading text-2xl">
               Home
             </a>
-            <div>
-              <button
-                onClick={toggleAboutDropdown}
-                className="font-heading text-2xl flex items-center space-x-2"
-              >
-                <span>About Us</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  className={`w-6 h-6 transform transition-transform ${
-                    isAboutDropdownOpen ? "rotate-180" : ""
-                  }`}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </button>
-            </div>
-            <a href="/services" className="font-heading text-2xl">
-              Services
+            <a href="/about" className="font-heading text-2xl">
+              About Us
+            </a>
+            <a href="/products" className="font-heading text-2xl">
+              Products
             </a>
             <a href="/contact" className="font-heading text-2xl">
               Contact

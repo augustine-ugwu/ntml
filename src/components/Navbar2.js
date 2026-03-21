@@ -32,10 +32,7 @@ export default function Navbar() {
         {/* Desktop Navigation */}
         <ul className="hidden lg:flex space-x-8 text-xl">
           <li>
-            <a
-              href="/"
-              className="nav font-heading relative cursor-pointer line-permanent"
-            >
+            <a href="/" className="nav font-heading relative cursor-pointer">
               Home
             </a>
           </li>
@@ -126,22 +123,12 @@ export default function Navbar() {
             Home
           </a>
 
-          <div className="relative">
-            <button
-              onClick={toggleAboutDropdown}
-              className="font-heading text-2xl flex items-center space-x-2"
-            >
-              <span>About Us</span>
-              <ChevronDownIcon
-                className={`w-5 h-5 transition-transform duration-200 ${
-                  isAboutDropdownOpen ? "transform rotate-180" : ""
-                }`}
-              />
-            </button>
-          </div>
+          <a href="/about" className="font-heading text-2xl">
+            About Us
+          </a>
 
-          <a href="/services" className="font-heading text-2xl">
-            Services
+          <a href="/products" className="font-heading text-2xl">
+            Products
           </a>
           <a href="/contact" className="font-heading text-2xl">
             Contact

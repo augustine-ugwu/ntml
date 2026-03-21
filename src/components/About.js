@@ -21,7 +21,7 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 mt-12">
           {/* Column 1: Occupies 7/12 */}
           <div className="md:col-span-7">
-            <img src="../0001.jpg" />
+            <img src="../1101.jpg" />
           </div>
           {/* Column 2: Occupies 5/12 */}
           <div className="md:col-span-5 flex flex-col h-full">

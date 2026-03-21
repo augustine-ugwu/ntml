@@ -137,8 +137,8 @@ export default function Hero() {
             >
               &times;
             </button>
-            <a href="/services" className="font-heading text-2xl">
-              Services
+            <a href="/products" className="font-heading text-2xl">
+              Products
             </a>
             <div>
               <button
