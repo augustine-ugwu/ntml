@@ -3,6 +3,11 @@ import React from "react";
 const Team = () => {
   const teamMembers = [
     {
+      name: "Hon. MD Abubakar IGP Retired",
+      position: "Chairman",
+      image: "../Image6.jpg",
+    },
+    {
       name: "Prince A. A. Ademiluyi",
       position: "Executive Director",
       image: "../Image4.jpg",
@@ -21,6 +26,16 @@ const Team = () => {
       name: "Alhaji Nurudeen Tambaya",
       position: "Director",
       image: "../Image11.jpeg",
+    },
+    {
+      name: "Mr. Mohammed Abdu Yakasai",
+      position: "Director",
+      image: "../Image7.jpeg",
+    },
+    {
+      name: "Mr. Luqman Mamudu",
+      position: "Director",
+      image: "../Image1.jpeg",
     },
     {
       name: "Mr. Iftikhar Ahmed",

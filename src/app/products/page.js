@@ -11,7 +11,7 @@ export default function Products() {
       {/* HeroSection */}
       <HeroSection
         title="Our Products and Services"
-        backgroundImage="/0002.jpg"
+        backgroundImage="/1102.jpg"
       />
 
       {/* Main Section */}

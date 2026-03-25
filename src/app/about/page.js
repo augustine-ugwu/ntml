@@ -9,7 +9,7 @@ export default function About() {
       <Navbar />
 
       {/* HeroSection */}
-      <HeroSection title="About Us" backgroundImage="/0002.jpg" />
+      <HeroSection title="About Us" backgroundImage="/1102.jpg" />
 
       {/* Main Section */}
       <div className="text-center bg-white px-4 md:px-32 pt-20 pb-32">
@@ -72,7 +72,7 @@ export default function About() {
       <div className="relative">
         {/* Background Image */}
         <img
-          src="../0001.jpg"
+          src="../1103.jpeg"
           alt="Brief History of National Trucks Manufacturers Limited"
           className="w-full h-[90vh] object-cover"
         />
