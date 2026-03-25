@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Hero() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -17,7 +18,7 @@ export default function Hero() {
   return (
     <section className="relative h-screen overflow-hidden">
       {/* Video Background */}
-      <video
+      {/* <video
         className="absolute inset-0 w-full h-full object-cover"
         src="../bgVid.mp4"
         type="video/mp4"
@@ -25,21 +26,25 @@ export default function Hero() {
         loop
         muted
         playsInline
-      ></video>
+      ></video> */}
+
+      {/* Image Background */}
+      <Image
+        src="/1102.jpg"
+        alt="Background"
+        fill
+        className="absolute inset-0 object-cover"
+      />
 
       {/* Overlay for better readability */}
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div className="absolute inset-0 bg-black/70"></div>
 
       {/* Navigation Bar as part of Hero */}
       <header className="absolute top-0 left-0 w-full bg-transparent text-white z-20 transition-all duration-300 ease-in-out">
         <nav className="container mx-auto flex items-center justify-between p-6">
           <a href="/">
             <div className="text-lg tracking-wider md:p-10 flex items-center space-x-2">
-              <img
-                src="../logo.png"
-                className="md:h-8 h-8 w-auto"
-                alt="NTML Logo"
-              />
+              <Image src="/logo.png" alt="NTML Logo" width={80} height={30} />
               <span className="font-heading md:text-3xl">NTML</span>
             </div>
           </a>
