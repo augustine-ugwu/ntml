@@ -10,7 +10,7 @@ export default function ContactPage() {
       <Navbar />
 
       {/* HeroSection */}
-      <HeroSection title="Contact Us" backgroundImage="/0002.jpg" />
+      <HeroSection title="Contact Us" backgroundImage="/1102.jpg" />
 
       {/* Content */}
       <div className="min-h-screen bg-white py-6">
