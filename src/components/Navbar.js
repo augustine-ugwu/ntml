@@ -51,7 +51,7 @@ export default function Navbar() {
         <nav className="container mx-auto flex items-center justify-between p-8">
           <a href="/">
             <div className="text-lg tracking-wider flex items-center space-x-2">
-              <img src="../logo.png" className="h-8 w-auto" alt="NTML Logo" />
+              <img src="/logo.png" className="h-8 w-auto" alt="NTML Logo" />
               <span className="font-heading md:text-3xl">NTML</span>
             </div>
           </a>

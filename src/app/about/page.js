@@ -33,7 +33,7 @@ export default function About() {
           {/* Vision */}
           <div className="text-center">
             <img
-              src="../vision.svg"
+              src="/vision.svg"
               alt="Vision"
               className="w-24 h-24 mt-12 mx-auto mb-4"
             />
@@ -50,7 +50,7 @@ export default function About() {
           {/* Our Mission */}
           <div className="text-center">
             <img
-              src="../mission.svg"
+              src="/mission.svg"
               alt="Our Mission"
               className="w-24 h-24 mt-12 mx-auto mb-4"
             />
@@ -72,7 +72,7 @@ export default function About() {
       <div className="relative">
         {/* Background Image */}
         <img
-          src="../1103.jpeg"
+          src="/1103.jpeg"
           alt="Brief History of National Trucks Manufacturers Limited"
           className="w-full h-[90vh] object-cover"
         />

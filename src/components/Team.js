@@ -5,42 +5,42 @@ const Team = () => {
     {
       name: "Hon. MD Abubakar IGP Retired",
       position: "Chairman",
-      image: "../Image6.jpg",
+      image: "/Image6.jpg",
     },
     {
       name: "Prince A. A. Ademiluyi",
       position: "Executive Director",
-      image: "../Image4.jpg",
+      image: "/Image4.jpg",
     },
     {
       name: "Mr. Mohammed Rehman",
       position: "Executive Director",
-      image: "../Image3.jpeg",
+      image: "/Image3.jpeg",
     },
     {
       name: "Mr. Tousif Mohammed Paracha",
       position: "Executive Director",
-      image: "../Image5.jpg",
+      image: "/Image5.jpg",
     },
     {
       name: "Alhaji Nurudeen Tambaya",
       position: "Director",
-      image: "../Image11.jpeg",
+      image: "/Image11.jpeg",
     },
     {
       name: "Mr. Mohammed Abdu Yakasai",
       position: "Director",
-      image: "../Image7.jpeg",
+      image: "/Image7.jpeg",
     },
     {
       name: "Mr. Luqman Mamudu",
       position: "Director",
-      image: "../Image1.jpeg",
+      image: "/Image1.jpeg",
     },
     {
       name: "Mr. Iftikhar Ahmed",
       position: "Managing Director",
-      image: "../Image2.jpeg",
+      image: "/Image2.jpeg",
     },
   ];
 

@@ -10,7 +10,7 @@ export default function Footer() {
           <a href="/">
             <div className="text-lg tracking-wider flex items-center space-x-2">
               <img
-                src="../logo.png"
+                src="/logo.png"
                 className="h-8 w-auto"
                 alt="National Trucks Manufacturers Logo"
               />

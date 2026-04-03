@@ -17,7 +17,7 @@ export default function Products() {
       {/* Main Section */}
       <div className="text-center bg-white px-4 md:px-32 pt-20 pb-32">
         <h1 className="font-heading text-italic text-5xl md:text-6xl tracking-wide text-center mb-6 text-green-600">
-          Coming Soon
+          Coming Soon...
         </h1>
       </div>
 

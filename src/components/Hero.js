@@ -20,7 +20,7 @@ export default function Hero() {
       {/* Video Background */}
       {/* <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="../bgVid.mp4"
+        src="/bgVid.mp4"
         type="video/mp4"
         autoPlay
         loop
